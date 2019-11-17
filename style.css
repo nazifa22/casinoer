@@ -1,0 +1,184 @@
+/*
+ * ─── VARIABLES ──────────────────────────────────────────────────────────────────
+ */
+
+ :root {
+    --main-font: 'Poppins', sans-serif;
+    --primary-color: #0C204E;
+    --secondary-color: #00C9D9;
+    --regentGray: #858FA6;
+    --lochinvar: #36928F;
+    --supernova: #FFCE00;
+    --torchRed: #FF0056;
+    --lima: #78BE20;
+    --gull-gray: #939CB0;
+}
+
+body {
+    background: #F6F6F6;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.container-max-1700 {
+    max-width: 1700px;
+}
+
+.twin-spin__image img {
+    border-radius: 4px;
+}
+
+.twin-spin__details h1 {
+    color: var(--primary-color);
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.twin-spin__rating i {
+    color: var(--supernova);
+}
+
+.twin-spin__rating span {
+    color: var(--primary-color);
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.programvareleverandor span {
+    color: var(--primary-color);
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.btn-ffffff {
+    background: #ffffff;
+    border: #ffffff;
+    color: var(--lima);
+    font-weight: bold;
+    padding: 8px 5px;
+}
+
+.btn-ffffff:hover {
+    background: #ffffff;
+    border: #ffffff;
+    color: var(--lima);
+}
+
+.innstats {
+    background: #ffffff;
+    margin-top: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 15px 0px #cac9c9;
+}
+
+.innstats .col {
+    padding: 15px 30px;
+}
+
+.border-left-eeeeee {
+    border-left: 1px solid #eeeeee;
+}
+
+.innstats div > span {
+    color: var(--gull-gray);
+    font-weight: bold;
+}
+
+.innstats i {
+    color: var(--supernova);
+}
+
+.innstats h2 {
+    display: inline-block;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.innstats h2 span {
+    font-weight: 900;
+    color: var(--gull-gray);
+}
+
+.innstats h2 ~ span {
+    font-weight: 600;
+}
+
+.btn-FFCE00 {
+    background: var(--supernova);
+    border: var(--supernova);
+    font-weight: 700;
+    padding: 15px 30px;
+    font-size: 18px;
+    box-shadow: 0px 3px 0px 0px #dab000;
+    margin-left: 10px;
+}
+
+.btn-FFCE00:hover {
+    background: var(--supernova);
+    border: var(--supernova);
+    color: white;
+}
+
+.main-section {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.gaming-tag {
+    background: #ffffff;
+    padding: 40px 0;
+    border-radius: 4px;
+}
+
+.gaming-tag__img img {
+    width: 50%;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px 0px #afafaf;
+}
+
+.gaming-tag__details {
+    padding: 15px 0 0;
+}
+
+.gaming-tag__details p {
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.gaming-tag__details span {
+    color: var(--gull-gray);
+}
+
+.gaming-tag__details h3 {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.gaming-tag__details span {
+    font-weight: 700;
+    color: var(--regentGray);
+}
+
+.omtale-twin-spin {
+    background: #ffffff;
+    padding: 30px 40px;
+    margin: 20px 0;
+    border-radius: 6px;
+    box-shadow: 0px 0px 15px 0px #cac9c9;
+    text-align: left;
+}
+
+.omtale-twin-spin h1 {
+    color: var(--primary-color);
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.omtale-twin-spin p {
+    color: var(--regentGray);
+    font-size: 12px;
+}

@@ -182,3 +182,96 @@ img {
     color: var(--regentGray);
     font-size: 12px;
 }
+
+.game-info {
+    text-align: left;
+    background: #ffffff;
+    padding: 20px 30px;
+    box-shadow: 0px 0px 15px 0px #cac9c9;
+    border-radius: 6px;
+}
+
+.game-info h4 {
+    color: var(--regentGray);
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.game-info table th,
+.game-info table td {
+    border: none;
+    padding: 0.4rem 1rem;
+    color: #555;
+    font-size: 12px;
+}
+
+.game-info table td {
+    text-align: right;
+}
+
+.color-FF0056 {
+    color: var(--torchRed) !important;
+}
+
+.color-00C9D9 {
+    color: var(--secondary-color) !important;
+}
+
+.details {
+    text-align: left;
+    background: #ffffff;
+    padding: 20px 30px 40px;
+    box-shadow: 0px 0px 15px 0px #cac9c9;
+    border-radius: 6px;
+    margin: 20px 0;
+}
+
+.details h1 {
+    padding: 20px 0;
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.details p {
+    color: #333;
+    font-size: 12px;
+}
+
+.details img {
+    padding: 20px 0;
+}
+
+.details span {
+    background: linear-gradient(to right, #333 0%, #bbb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.details a {
+    display: block;
+    text-align: center;
+    color: #333;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.game-review {
+    text-align: left;
+    background: #ffffff;
+    padding: 20px 30px;
+    box-shadow: 0px 0px 15px 0px #cac9c9;
+    border-radius: 6px;
+}
+
+.gave-review__title {
+    font-size: 12px;
+    color: var(--regentGray);
+}
+
+.game-review  .reviews {
+    margin: 15px 0;
+    padding: 5px 15px;
+    color: #333;
+    font-size: 12px;
+}
